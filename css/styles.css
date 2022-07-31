@@ -1,0 +1,113 @@
+/* колір акценту #2196F3 */
+/* цвет основного текста чёрный #000000 */
+/* белый #FFFFFF */
+/* цвет номера тел #757575 */
+
+:root {
+  --primery-text-color: #2f303a;
+  --title-text-color: #212121;
+  --logo-text-color: #000000;
+  --accent-text-color: #2196f3;
+  --primery-wite-color: #ffffff;
+  --contact-text-color: #757575;
+}
+body {
+  background-color: var(--primery-wite-color);
+  color: var(--primery-text-color);
+  font-family: Roboto, sans-serif;
+}
+.logo {
+  color: var(--logo-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.site-nav a {
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav a:hover {
+  color: var(--accent-text-color);
+}
+.site-nav a:focus {
+  color: var(--accent-text-color);
+}
+.contact a {
+  color: var(--contact-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contact a:hover {
+  color: var(--accent-text-color);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.hero {
+  color: var(--primery-wite-color);
+  background: var(--primery-text-color);
+  font-family: "Roboto";
+  font-weight: 900;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.title-advantage {
+  color: var(--title-text-color);
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.title-section {
+  font-weight: 700;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.name {
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+p {
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+button {
+  background-color: var(--accent-text-color);
+  color: var(--primery-wite-color);
+  cursor: pointer;
+}
+.title-portfolio {
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+.title-p {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--contact-text-color);
+}
+footer {
+  background-color: var(--primery-text-color);
+}
+.plays a {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.mail-tel a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
