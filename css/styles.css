@@ -20,12 +20,14 @@ body {
   color: var(--logo-text-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
+  font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
 .site-nav a {
   color: var(--title-text-color);
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -38,19 +40,19 @@ body {
 .contact a {
   color: var(--contact-text-color);
   font-weight: 500;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contact a:hover {
   color: var(--accent-text-color);
-  line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 .hero {
   color: var(--primery-wite-color);
   background: var(--primery-text-color);
   font-family: "Roboto";
   font-weight: 900;
+  font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
@@ -72,41 +74,67 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
 }
-p {
+.paragraph {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-button {
+.hero-button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
   background-color: var(--accent-text-color);
   color: var(--primery-wite-color);
   cursor: pointer;
 }
+.button {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #F5F4FA;
+  color: var(--title-text-color);
+  cursor: pointer;
+}
+.button:hover {
+color: var(--primery-wite-color);
+background-color: var(--accent-text-color);
+}
+.button:focus {
+  color: var(--primery-wite-color);
+background-color: var(--accent-text-color);
+}
 .title-portfolio {
   font-weight: 700;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 .title-p {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--contact-text-color);
 }
-footer {
+.footer {
   background-color: var(--primery-text-color);
 }
 .plays a {
   color: #ffffff;
-  font-family: "Roboto";
   font-style: normal;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .mail-tel a {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
