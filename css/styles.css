@@ -124,12 +124,7 @@ body {
 .underside {
   background-color: var(--primery-text-color);
 }
-.underside a:hover {
-  color: var(--accent-text-color);
-}
-.underside a:focus {
-  color: var(--accent-text-color);
-}
+
 .plays a {
   color: #ffffff;
   font-style: normal;
@@ -137,10 +132,22 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+.plays a:hover {
+  color: var(--accent-text-color);
+}
+.plays a:focus {
+  color: var(--accent-text-color);
+}
 .mail-tel a {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.mail-tel a:hover {
+  color: var(--accent-text-color);
+}
+.mail-tel a:focus {
+  color: var(--accent-text-color);
 }
