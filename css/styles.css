@@ -96,17 +96,17 @@ body {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   color: var(--title-text-color);
   cursor: pointer;
 }
 .button:hover {
-color: var(--primery-wite-color);
-background-color: var(--accent-text-color);
+  color: var(--primery-wite-color);
+  background-color: var(--accent-text-color);
 }
 .button:focus {
   color: var(--primery-wite-color);
-background-color: var(--accent-text-color);
+  background-color: var(--accent-text-color);
 }
 .title-portfolio {
   font-weight: 700;
@@ -121,8 +121,14 @@ background-color: var(--accent-text-color);
   letter-spacing: 0.03em;
   color: var(--contact-text-color);
 }
-.footer {
+.underside {
   background-color: var(--primery-text-color);
+}
+.underside a:hover {
+  color: var(--accent-text-color);
+}
+.underside a:focus {
+  color: var(--accent-text-color);
 }
 .plays a {
   color: #ffffff;
@@ -133,7 +139,6 @@ background-color: var(--accent-text-color);
 }
 .mail-tel a {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
